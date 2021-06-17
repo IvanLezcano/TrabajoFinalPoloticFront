@@ -1,0 +1,19 @@
+
+
+.prueba li{
+    width: 16.66%;
+    background-color: rgb(180, 51, 47);
+    margin-bottom:2px ;
+    padding: 10px 0;
+    text-align: center;   
+}
+
+.home footer a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.prueba li{
+    display: inline-block;
+
+}
