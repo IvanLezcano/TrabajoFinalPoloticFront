@@ -1,6 +1,11 @@
 *{  box-sizing: border-box;
-    margin: 0px;
+    margin: 0;
     padding: 0;
+}
+.App{
+        background-image: url("../fondo.jpg");
+        background-size: cover;
+
 }
 
 .header header img{
@@ -11,7 +16,7 @@
     /* margin: auto;
     margin-top: 15px !important;
     margin-bottom: 30px !important; */
-    margin: 15px auto 30px;
+    margin: auto ;
 }
 
 .header header li{
@@ -36,7 +41,7 @@ li{
     list-style-type: none;
 }
 
-.header button{
+.header .menumobile{
     display: block;
     margin: 30px auto;
     background-color: gray;
@@ -44,4 +49,21 @@ li{
     border: none;
     padding: 7px;
     border-radius: 5px;
+}
+.search .busqueda{
+    width: 80%;
+    height: 40px;
+    border-radius: 14px ;
+    border: yellow 5px solid;
+    margin-left: 0;
+    font-size: 20px;
+    font-weight: bolder;
+   
+}
+.search .lupa{
+margin: 0 !important;
+width: 20%;
+}
+.search{
+    display: flex;
 }

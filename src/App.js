@@ -1,8 +1,10 @@
-import './App.css';
-import "./footer.css"
-import Header from './componentes/header';
-import Footer from './componentes/footer';
+import '../src/componentes/Header.css';
+import "../src/componentes/footer.css"
+import { Header } from './componentes/Header'
+import { Footer } from './componentes/Footer';
 import { Nosotros } from './componentes/Nosotros';
+import { Menu } from './componentes/Menu';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,15 +19,23 @@ function App() {
     <Router>
       <div className="App">
         <Header/>
-          <div>hola</div>
-          
+        <Menu/>
+
+
+
           <Switch>
-            <Route path="/contacto">
+            <Route path="/producto">
               <div>
+                <Link to="/">
                 HOLA PAPA ESTAS EN CONTACTO
+                </Link>
               </div>
             </Route>
           </Switch>
+
+
+
+
             
         <Footer/>
       </div>
