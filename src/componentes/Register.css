@@ -1,0 +1,21 @@
+.register{
+    background-color: red;
+
+    flex-direction: column;
+    font-size: 40px;
+    text-align: center;
+}
+.register input{
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 40%;
+    height: 50px;
+    font-size: 40px;
+}
+.register h2{
+    text-align: center;
+    color: yellow;
+    font-size: 65px;
+    
+}

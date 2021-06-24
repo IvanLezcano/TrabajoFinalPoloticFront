@@ -11,20 +11,17 @@ import {
 
 export const Menu = () => {
     return (
-        <div class="header">
+        <div class="menu2">
             <header>
             <ul>
 
-                            <li><Link to ="/">Home</Link></li>
-                            <li><Link to ="/login">Categorias</Link></li>
-                            <li><Link to ="/register">Acerca de..</Link></li>
+                            <li><Link to ="/" exact>Home</Link></li>
+                            <li><Link to ="/categorias">Categorias</Link></li>
+                            <li><Link to ="/sobreNosotros">Acerca de..</Link></li>
                             <li><Link to ="/contacto">Contacto</Link></li>
                             <li><Link to ="/admin">Nuevo producto</Link></li>
             </ul>
-            <div class="search" >
-            <input class="busqueda" type="text" placeholder="Search"/>
-            <button type="submit" class="fa fa-search lupa"></button>
-            </div>
+            
            
             </header>
         </div>
